@@ -58,7 +58,7 @@ custom_user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
 ]
 
-ap = argparse.ArgumentParser(description="PowerFlood - DDoS Tool by Sheikh")
+ap = argparse.ArgumentParser(description="Qassam Flooder - DDoS Tool by Sheikh")
 ap.add_argument("-c", "--choice", required=True, type=str, choices=['udp', 'tcp', 'http', 'slowloris'], help="Flood type")
 ap.add_argument("-u", "--url", type=str, help="URL for HTTP flood")
 ap.add_argument("-i", "--ip", type=str, help="Target IP address")
